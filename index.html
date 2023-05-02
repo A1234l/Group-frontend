@@ -2,12 +2,12 @@
     <h1 class="title">7 Wonders of the World</h1>
     <h2 class="title">Hacks FE and BE made by <span id="names">Tirth, Alan, Jishnu, Yuri, and Haoxuan</span></h2>
     <p class="title">Welcome to our page! Here we give information on the Seven Wonders of the World.</p>
-    <table id="sceneryTable">
+    <table style="width: 100%;">
         <tr>
-            <th>Name</th>
-            <th>Location</th>
-            <th>Date Built</th>
-            <th>Image</th>
+            <th class="sceneryTable">Name</th>
+            <th class="sceneryTable">Location</th>
+            <th class="sceneryTable">Date Built</th>
+            <th class="sceneryTable">Image</th>
         </tr>
       <tbody id="rowDisplay">
       </tbody>
@@ -19,9 +19,10 @@
     .title{
         text-align: center;
     }
-    #sceneryTable{
-        width: 100%;
+    .sceneryTable{
         background-color: rgba(199, 84, 84, 0.904);
+        border-radius: 10px;
+        border: 2px solid black;
     }
     </style>
     <script>
